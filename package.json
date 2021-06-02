@@ -9,7 +9,6 @@
     "ci": "jest --watch",
     "test": "jest --coverage",
     "lint": "eslint services",
-
     "docker:build": "docker build -t conduit ."
   },
   "keywords": [
@@ -22,19 +21,20 @@
     "eslint": "4.11.0",
     "jest": "21.2.1",
     "jest-cli": "21.2.1",
-    "moleculer-repl": "^0.3.0",
-    "npm-check": "5.5.2"
+    "moleculer-repl": "^0.6.5",
+    "npm-check": "^5.9.2"
   },
   "dependencies": {
-    "bcrypt": "1.0.3",
-    "jsonwebtoken": "8.1.0",
-    "lodash": "4.17.4",
-    "moleculer": "^0.11.0",
-    "moleculer-db": "0.7.0",
-    "moleculer-db-adapter-mongo": "0.1.6",
-    "moleculer-web": "0.6.0-beta7",
-    "nats": "0.7.24",
-    "slug": "0.9.1"
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moleculer": "^0.14.13",
+    "moleculer-db": "^0.8.14",
+    "moleculer-db-adapter-mongo": "^0.4.12",
+    "moleculer-web": "^0.10.0-beta2",
+    "nats": "^2.0.4",
+    "slug": "^5.0.1",
+    "@moleculer/lab": "^0.6.0"
   },
   "repository": {
     "type": "git",
